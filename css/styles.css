@@ -1,0 +1,66 @@
+/*Remove the blue border on focus for the buttons*/
+button:focus {
+    outline: 0;
+}
+
+.section-head {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-left: 1px solid #EF6C00;
+    padding-left: 18px;
+    margin-left: -10px;
+    color: #818181;
+}
+
+.stock-text {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+    line-height: 1.2em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 8px;
+    margin-left: 0px;
+    color: #818181;
+}
+
+.menuButton {
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 20px;
+    padding: 0px 5px;
+    line-height: 1.2em;
+    font-size: 12px;
+}
+
+.major line {
+    shape-rendering: crispEdges;
+    stroke: #000;
+    stroke-width: 3px;
+}
+
+.minor line {
+    stroke: #777;
+    stroke-width: 1px;
+    stroke-dasharray: 6, 4;
+}
+
+.tooltip {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.inputNumber {
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+    font-size: 12px;
+}
